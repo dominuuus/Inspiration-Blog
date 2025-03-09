@@ -1,0 +1,9 @@
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__content {
+    display: flex;
+}
+

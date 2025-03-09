@@ -6,6 +6,8 @@
 }
 
 :root {
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Oswald', 'Roboto', sans-serif;
     --primary-color: #000;
     --secondary-color: #fc4c17;
     --section-one-color: #ebda54;
@@ -13,4 +15,8 @@
     --white: #fff;
     --black: #000;
     --background-color: #fff;
+}
+
+body {
+    font-family: var(--main-font);
 }
