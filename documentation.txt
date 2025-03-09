@@ -1,0 +1,33 @@
+Font-Family: "Oswald"
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+Colors:
+Main color: #000;
+Secondary color: #fc4c17;
+Section 1: #ebda54;
+Section 2: #e4daed;
+
+Photos from:
+https://unsplash.com/pt-br/fotografias/homem-sentado-na-frente-da-mesa-XWTQ4UAUIQ4
+- https://unsplash.com/pt-br/@outcast_india
+
+Foto de <a href="https://unsplash.com/pt-br/@cowomen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">CoWomen</a> na <a href="https://unsplash.com/pt-br/fotografias/mulher-de-camisa-preta-de-meia-manga-sentada-enquanto-encara-a-mulher-e-sorri-QziaoZM0M44?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- https://unsplash.com/pt-br/@cowomen
+
+
+https://unsplash.com/pt-br/fotografias/mulher-na-camisa-branca-que-veste-o-bone-preto-da-malha-d7JCyFstmqM
+- https://unsplash.com/pt-br/@justdushawn
+
+Profiles:
+- https://unsplash.com/pt-br/@alexanderhipp
+- https://unsplash.com/pt-br/@nartan
+- https://unsplash.com/pt-br/@leilaniangel
+- https://unsplash.com/pt-br/@itfeelslikefilm
+- https://unsplash.com/pt-br/@eugabrielsilverio
+- https://unsplash.com/pt-br/@princearkman
+- https://unsplash.com/pt-br/@batelstudios
+- https://unsplash.com/pt-br/@mrsrachelmcdermott
+- https://unsplash.com/pt-br/@princearkman
