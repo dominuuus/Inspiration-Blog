@@ -1,0 +1,7 @@
+
+.menu-title {
+    color: var(--secondary-color);
+    background-color: #fc4c17;
+    display: flex;
+    justify-content: center;
+}
