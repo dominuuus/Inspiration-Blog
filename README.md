@@ -33,6 +33,8 @@ O design do blog foi inspirado no modelo disponível no Dribbble:
 
 🔗 [Podcast Design Exploration](https://dribbble.com/shots/24943214-Podcast-Design-Exploration)
 
+![alt text](estrutura-Blog-1.png)
+
 A partir dessa inspiração, o projeto foi construído utilizando **Angular** e adotando a criação de componentes e interações para um desenvolvimento eficiente.
 
 ## 🚀 Tecnologias Utilizadas
