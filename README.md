@@ -57,11 +57,21 @@ O projeto utiliza as seguintes tecnologias:
 - Primeiro projeto utilizando **Angular**.
 - Aplicação dos conceitos aprendidos nas aulas e aproveitamento da experiência prévia com **React**.
 
+## 📊 Status do Projeto
+
+- **Início:** 09/03/2025 às 18:00  
+- **Status atual:** Atualizando  
+- **Andamento do projeto em 09/03/2025 às 22:00:** Estilização em progresso  
+
 ## 📅 Próximos Passos
 
 - [ ] Concluir a estilização das páginas e componentes
 - [ ] Criar as rotas da aplicação
 - [ ] Implementar conteúdo dinâmico para os posts exibidos na página inicial
+
+## Visual em 09/03/2025 22:00
+
+![alt text](screencapture-localhost-4200-2025-03-09-22_43_07-1.png)
 
 ## ⚙️ Instalação e Execução
 
