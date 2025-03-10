@@ -1,0 +1,31 @@
+.container__post-card {
+    display: flex;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 20px;
+    height: 90px;
+}
+
+.photo__post-card img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.title__post-card {
+    font-size: 1rem;
+}
+
+.author__post-card {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.link__post-card {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+hr {
+    color: rgb(64, 14, 14);
+}

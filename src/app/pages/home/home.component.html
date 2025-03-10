@@ -1,11 +1,44 @@
-<app-menu-title></app-menu-title>
+<div class="blog__menu">
+    <app-menu-bar></app-menu-bar>
+</div>
+<div class="blog__title">
+    <app-menu-title></app-menu-title>
+</div>
+
 <div class="articles">
     <div class="main__content">
         <app-main-card></app-main-card>
         <app-main-card></app-main-card>
         <app-main-card></app-main-card>
     </div>
-    <div class="latest__news">Latest News
-
+    <div class="latest__news">
+        <div>
+            <h1>FROM THE BLOG</h1>
+        </div>
+        <div>
+            <app-small-card></app-small-card>
+            <hr>
+            <app-small-card></app-small-card>
+            <hr>
+            <app-small-card></app-small-card>
+            <hr>
+            <app-small-card></app-small-card>
+        </div>
+        
+        <div class="link__blog__home">
+            <button><a href="">Visit Blog</a></button>
+        </div>
     </div>
+</div>
+
+<hr>
+
+<div class="browse__topics">
+    <app-browse-topics></app-browse-topics>
+</div>
+
+<hr>
+
+<div>
+    <app-footer></app-footer>
 </div>

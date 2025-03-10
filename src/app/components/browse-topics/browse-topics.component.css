@@ -1,0 +1,51 @@
+
+
+.label__browse-topics h1 {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 1rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.label__browse-topics {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.content__browse-topics {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+
+.content__browse-topics div {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.content__browse-topics h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box__browse-topics {
+    background-color: aqua;
+    border: 1px solid gray;
+}
+
+.title__browse-topics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__browse-topics img {
+    width: 80px;
+    height: 80px;
+}

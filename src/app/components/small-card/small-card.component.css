@@ -1,0 +1,17 @@
+.container__small-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+
+.title__small-card {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.author__small-card {
+    color: #b5b5b5;
+    font-size: 0.75rem;
+}
+

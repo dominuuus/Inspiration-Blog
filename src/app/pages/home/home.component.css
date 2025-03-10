@@ -1,9 +1,38 @@
 .articles {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 75% 25%;
 }
 
 .main__content {
     display: flex;
 }
 
+h1 {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.link__blog__home button {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+
+.link__blog__home button:hover {
+    background-color: var(--section-two-color);;
+}
+
+.browse__topics {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog__menu {
+    height: 70px;
+}

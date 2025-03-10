@@ -1,0 +1,9 @@
+.container__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container__footer img {
+    width: 50%;
+}

@@ -1,10 +1,9 @@
 .container__main-card {
-    height: 25rem;
-    width: 18rem;
+    height: 30rem;
+    width: 19rem;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin-bottom: 10px;
 }
 
 .content__main-card {
@@ -17,7 +16,6 @@
     border-radius: 10px 10px 0 10px;
     color: white;
     height: 80%;
-    padding: 10px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 85% 90%, 0 90%);
     border-bottom-right-radius: 10px;
 }
