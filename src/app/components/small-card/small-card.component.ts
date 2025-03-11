@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class SmallCardComponent {
 
+  @Input()
+  id:string = "0"
+  @Input()
+  cardTitle:string = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
+  @Input()
+  cardAuthor:string = "Nome do author"
 }

@@ -1,17 +1,18 @@
 <div class="container__main-card">
     <div class="content__main-card">
         <div class="main-card__photo">
-            <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="">
+            <img 
+            src={{photoCover}} alt="">
         </div>
         <div class="main-card__box_title">
             <div class="main-card__title">
                 <div>
-                    <h1>Este é o título da notícia um pouco maior</h1>
+                    <h1>{{cardTitle}}</h1>
                 </div>
                 <div class="main-card__label">
-                    <span>Contador</span>
+                    <span>{{cardTime}} </span>
                     <span>|</span>
-                    <span>Tag</span>
+                    <span>{{cardTag}}</span>
                 </div>
             </div>
             <div class="main-card__play">></div>
@@ -19,10 +20,10 @@
     </div>
 
     <div class="labels__main-card">
-        <div class="primary__labels__main-card">Nome</div>
+        <div class="primary__labels__main-card">{{cardAuthor}}</div>
         <div class="secondary__labels__main-card">
-            <div>Idade</div>
-            <div>Profissão</div>
+            <div>{{cardAuthorAge}} years old</div>
+            <div>{{cardAuthorOccupation}}</div>
         </div>
     </div>
 </div>

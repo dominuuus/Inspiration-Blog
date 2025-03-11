@@ -1,6 +1,6 @@
 .container__main-card {
     height: 30rem;
-    width: 19rem;
+    width: 17.5rem;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -27,7 +27,13 @@
 
 .main-card__box_title {
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.main-card__box_title div {
+    gap: 10px;
+    margin-right: 20px;
 }
 
 .main-card__title {
