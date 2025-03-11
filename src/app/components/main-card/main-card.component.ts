@@ -1,18 +1,17 @@
-import { Component, Input } from '@angular/core';
-
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-main-card',
   imports: [],
   templateUrl: './main-card.component.html',
-  styleUrl: './main-card.component.css'
+  styleUrl: './main-card.component.css',
 })
-export class MainCardComponent {
-
+export class MainCardComponent implements OnInit {
+  
   @Input()
   id:string = "0"
   @Input()
-  photoCover:string = "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+  photoCover:string = "https://rundna.com/wp-content/uploads/2024/07/reasons-your-running-is-slow.jpg"
   @Input()
   cardTitle:string = "Título principal do podcast"
   @Input()
@@ -25,4 +24,9 @@ export class MainCardComponent {
   cardAuthorAge:number = 39
   @Input()
   cardAuthorOccupation = "Journalist"
+post: any;
+
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 }

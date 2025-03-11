@@ -7,12 +7,14 @@
 }
 
 .content__main-card {
+    position: relative;
     margin: 0.75rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    background-color: var(--black);
+    background-size: cover;
+    background-position: center;
     border-radius: 10px 10px 0 10px;
     color: white;
     height: 80%;
@@ -25,10 +27,15 @@
     width: 100%;
 }
 
+.main-card__title h1 {
+    font-size: 1.5rem;
+}
+
 .main-card__box_title {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;   
+    justify-content: space-between;
+    margin-top: -100px;   
 }
 
 .main-card__box_title div {
@@ -42,6 +49,7 @@
     padding: 10px;
     font-size: 0.5rem;
     justify-content: center;
+    margin-top: -100px;
 }
 
 .main-card__label {
@@ -50,9 +58,14 @@
     gap: 10px;
 }
 
-.main-card__play {
-    margin-top: 30px;
+
+.material-icons {
+    margin-top: -50px;
+    font-size: 40px;
+    color: var(--secondary-color);
 }
+
+
 
 
 .labels__main-card {
@@ -72,4 +85,8 @@
     flex-direction: row;
     gap: 10px;
     font-size: 0.75rem;
+}
+
+.content__main-card img {
+    border-radius: 10px 10px 0 0;
 }

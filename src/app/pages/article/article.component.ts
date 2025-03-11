@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from "../../components/menu-title/menu-title.component";
-import { SmallCardComponent } from "../../components/small-card/small-card.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 import { ActivatedRoute } from '@angular/router';
 import { posts } from '../../data/posts';
+import { PostCardComponent } from "../../components/post-card/post-card.component";
 
 @Component({
   selector: 'app-article',
-  imports: [MenuBarComponent, MenuTitleComponent, SmallCardComponent, FooterComponent],
+  imports: [MenuBarComponent, MenuTitleComponent, FooterComponent, PostCardComponent],
   templateUrl: './article.component.html',
   styleUrl: './article.component.css'
 })

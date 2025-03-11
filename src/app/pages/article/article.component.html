@@ -8,14 +8,18 @@
 <div class="container__article">
 
     <div class="content__article">
-        <div>
-            <h1>{{cardTitle}}</h1>
-            <h2>{{cardAuthor}}</h2>
-            <h3>{{cardPublishedAt}}</h3>
-            <h4>{{cardTag}}</h4>
+        <div class="header__content__article">
+            <div class="boxOne__header__content">
+                <h1>{{cardTag}}</h1>
+                <h2>{{cardTitle}}</h2>
+            </div>
+            <div class="boxTwo__header__content">
+                <h3>{{cardAuthor}}</h3>
+                <h3>Published at {{cardPublishedAt}}</h3>
+            </div>
         </div>
-        <div>
-            <div>
+        <div class="box-content__article">
+            <div class="photo__box-content">
                 <img 
                 src={{photoCover}} 
                 alt="">
@@ -29,13 +33,12 @@
             <h1>FROM THE BLOG</h1>
         </div>
         <div>
-            <app-small-card></app-small-card>
-            <hr>
-            <app-small-card></app-small-card>
-            <hr>
-            <app-small-card></app-small-card>
-            <hr>
-            <app-small-card></app-small-card>
+            <app-post-card></app-post-card>
+            <app-post-card></app-post-card>
+            <app-post-card></app-post-card>
+            <app-post-card></app-post-card>
+            <app-post-card></app-post-card>
+
         </div>
         
         <div class="link__blog__home">

@@ -69,9 +69,9 @@ O projeto utiliza as seguintes tecnologias:
 - [ ] Criar as rotas da aplicação
 - [ ] Implementar conteúdo dinâmico para os posts exibidos na página inicial
 
-## Visual em 09/03/2025 22:00
+## Visual em 11/03/2025
 
-![alt text](screencapture-localhost-4200-2025-03-09-22_43_07-1.png)
+![alt text](visual/inspirational_blog 11 03 2025 16 00.png)
 
 ## ⚙️ Instalação e Execução
 

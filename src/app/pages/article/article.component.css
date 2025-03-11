@@ -1,9 +1,12 @@
 .container__article {
     display: grid;
     grid-template-columns: 75% 25%;
+    margin-bottom: 20px;
 }
 
 .content__article {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     margin-right: 20px;
     margin-left: 10px;
@@ -28,4 +31,30 @@ h1 {
     color: var(--secondary-color);
     text-transform: uppercase;
     font-size: 1rem;
+}
+
+.header__content__article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    row-gap: 5px;
+}
+
+
+.boxTwo__header__content {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    gap: 30px;
+    color: grey;
+}
+
+.photo__box-content {
+    text-align: center;
+}
+
+.photo__box-content img {
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
 }

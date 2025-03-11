@@ -1,9 +1,14 @@
 .container__footer {
+    margin-top: 50px;
+}
+
+.content__footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
-.container__footer img {
+.content__footer img {
     width: 50%;
 }

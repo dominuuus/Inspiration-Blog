@@ -26,7 +26,6 @@ h2 {
 
 .content__browse-topics div {
     padding: 10px;
-    background-color: aqua;
     border-radius: 20px;
 }
 
@@ -35,8 +34,31 @@ h2 {
     margin-bottom: 10px;
 }
 
-.box__browse-topics {
-    background-color: aqua;
+.container__sectionOne {
+    background-color: var(--section-one-color);
+}
+
+.sectionOne__browse-topics {
+    background-color: var(--section-one-color);
+    border: 1px solid gray;
+}
+
+.container__sectionTwo {
+    background-color: var(--section-two-color);
+}
+
+.sectionTwo__browse-topics {
+    background-color: var(--section-two-color);
+    border: 1px solid gray;
+}
+
+.container__sectionThree {
+    background-color: var(--black);
+}
+
+.sectionThree__browse-topics {
+    background-color: var(--black);
+    color: var(--white);
     border: 1px solid gray;
 }
 
@@ -46,7 +68,7 @@ h2 {
     height: 100px;
 }
 
-.title__browse-topics img {
-    width: 80px;
-    height: 80px;
+.image__browse-topics {
+    width: 100px;
+    height: 100px;
 }
