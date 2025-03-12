@@ -18,6 +18,11 @@
     --background-color: #fff;
 }
 
+html {
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     font-family: var(--main-font);
     max-width: 90vw;

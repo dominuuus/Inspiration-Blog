@@ -8,12 +8,17 @@ import { AppComponent } from './app.component';
 export const routes: Routes = [
     {
         path:'',
-        component: HomeComponent
+        component: HomeComponent,
+        pathMatch: 'full'
     },
     {
         path:'article/:url',
         component: ArticleComponent
-    }   
+    },
+    {
+        path: '**',
+        redirectTo: ''
+    }
 ];
 
 @NgModule({

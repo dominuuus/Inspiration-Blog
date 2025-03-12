@@ -13,5 +13,5 @@ export class SmallCardComponent {
   @Input()
   cardTitle:string = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
   @Input()
-  cardAuthor:string = "Nome do author"
+  cardAuthor:string = "Antonio Bernardo"
 }
