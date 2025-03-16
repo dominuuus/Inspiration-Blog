@@ -58,3 +58,30 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .container__article {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .content__article {
+        margin-right: 0;
+    }
+
+    .link__blog__home button {
+        width: 100%;
+    }
+
+    .boxTwo__header__content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .latest__news {
+        margin-left: 20px;
+    }
+    
+}
