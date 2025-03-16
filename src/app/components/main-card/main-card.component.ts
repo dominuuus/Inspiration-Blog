@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './main-card.component.html',
   styleUrl: './main-card.component.css',
 })
-export class MainCardComponent implements OnInit {
+export class MainCardComponent {
   
   @Input()
   id:string = "0"
@@ -26,7 +26,5 @@ export class MainCardComponent implements OnInit {
   cardAuthorOccupation = "Journalist"
 post: any;
 
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+
 }

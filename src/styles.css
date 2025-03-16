@@ -25,9 +25,9 @@ html {
 
 body {
     font-family: var(--main-font);
-    max-width: 90vw;
-    align-items: center;
-    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
 }
 
 a {

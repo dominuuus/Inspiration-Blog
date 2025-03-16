@@ -33,12 +33,12 @@
             <h1>FROM THE BLOG</h1>
         </div>
         <div>
-            <app-post-card></app-post-card>
-            <app-post-card></app-post-card>
-            <app-post-card></app-post-card>
-            <app-post-card></app-post-card>
-            <app-post-card></app-post-card>
-
+            <app-post-card
+            *ngFor="let post of latestPosts"
+            [url]="post.url"
+            [cardTitle]="post.cardTitle"
+            [cardAuthor]="post.cardAuthor"
+            ></app-post-card>
         </div>
         
         <div class="link__blog__home">

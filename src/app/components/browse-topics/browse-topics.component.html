@@ -12,9 +12,12 @@
                     <img class="image__browse-topics" src="https://cdni.iconscout.com/illustration/premium/thumb/woman-picking-up-waste-during-morning-jogging-illustration-download-in-svg-png-gif-file-formats--lady-female-nature-activist-pick-garbage-recycle-pack-people-illustrations-4459907.png" alt="">
                 </div>
                 <div>
-                    <app-post-card></app-post-card>
-                    <app-post-card></app-post-card>
-                    <app-post-card></app-post-card>
+                    <app-post-card
+                    *ngFor="let post of morningRunTalk"
+                    [url]="post.url"
+                    [cardTitle]="post.cardTitle"
+                    [cardAuthor]="post.cardAuthor">
+                </app-post-card>
                 </div>
             </div>
         </div>
@@ -26,9 +29,13 @@
                     <img src="https://alphaprogression.com/data/blog/img/articles/sizes/warm-up-how-to-guide-2400.png" alt="">
                 </div>
                 <div>
-                    <app-post-card></app-post-card>
-                    <app-post-card></app-post-card>
-                    <app-post-card></app-post-card>
+                    <app-post-card
+                    *ngFor="let post of warmingUpSession"
+                    [url]="post.url"
+                    [cardTitle]="post.cardTitle"
+                    [cardAuthor]="post.cardAuthor">
+                </app-post-card>
+
                 </div>
             </div>
         </div>
@@ -39,9 +46,13 @@
                     <img src="https://alphaprogression.com/data/blog/img/articles/sizes/2-things-to-track-muscle-building-2400.png" alt="">
                 </div>
                 <div>
-                    <app-post-card></app-post-card>
-                    <app-post-card></app-post-card>
-                    <app-post-card></app-post-card>
+                    <app-post-card
+                    *ngFor="let post of myFirstMarathon"
+                    [url]="post.url"
+                    [cardTitle]="post.cardTitle"
+                    [cardAuthor]="post.cardAuthor">
+                </app-post-card>
+                    
                 </div>
             </div>
         </div>
