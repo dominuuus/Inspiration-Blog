@@ -50,7 +50,7 @@ O projeto utiliza as seguintes tecnologias:
 ## 📌 Desafios e Aprendizados
 
 ### ✅ Autonomia
-- Cerca de **95% da estilização** foi desenvolvida de forma independente, utilizando **CSS e HTML**.
+- Cerca de **90% da estilização** foi desenvolvida de forma independente, utilizando **CSS e HTML**.
 - Algumas dúvidas foram resolvidas consultando aulas e documentações para ajustes avançados.
 
 ### 🔍 Curiosidade e Inovação
