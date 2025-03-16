@@ -9,3 +9,10 @@
     font-size: 3.4rem;
     font-weight: 900;
 }
+
+@media screen and (max-width: 768px) {
+    .menu-title {
+        font-size: 1.4rem;
+    }
+    
+}

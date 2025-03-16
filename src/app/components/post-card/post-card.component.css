@@ -7,13 +7,17 @@
 }
 
 .photo__post-card img {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
     border-radius: 50%;
 }
 
 .title__post-card {
     font-size: 1rem;
+}
+
+.title__post-card a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .author__post-card {

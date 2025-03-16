@@ -45,8 +45,27 @@ a:hover {
 
 .imagem__menu-bar img {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    margin-top: -30px;
+    height: 150px;
 }
 
+@media screen and (max-width: 768px) {
+    .container__menu-bar {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .navigation__menu-bar {
+        display: none;
+    }
+
+    .social__menu-bar {
+        display: none;
+    }
+
+    .imagem__menu-bar img {
+        height: 100px;
+    }
+    
+}
 

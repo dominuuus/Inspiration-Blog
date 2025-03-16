@@ -1,33 +1,13 @@
-<div class="container__main-card">
-    <div class="content__main-card"
-    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 70%),
-    url(https://rundna.com/wp-content/uploads/2024/07/reasons-your-running-is-slow.jpg)"
-    >
-        <img 
-            src="" alt="">
-        
-        <div class="main-card__box_title">
-            <div class="main-card__title">
-                <div>
-                    <h1>{{cardTitle}}</h1>
-                </div>
-                <div class="main-card__label">
-                    <span>{{cardTime}} </span>
-                    <span>|</span>
-                    <span>{{cardTag}}</span>
-                </div>
-            </div>
-            <div class="main-card__play"> 
-                <span class="material-icons">play_circle</span>
-            </div>
-        </div>
+    <div class="container__main">
+        <app-main-post
+        *ngFor="let post of hihglightedPosts"
+        [url]="post.url"
+        [cardTitle]="post.cardTitle"
+        [cardTime]="post.cardTime"
+        [cardAuthor]="post.cardAuthor"
+        [cardAuthorAge]="post.cardAuthorAge"
+        [cardAuthorOccupation]="post.cardAuthorOccupation"
+        [photoCover]="post.photoCover"
+        [cardPublishedAt]="post.cardPublishedAt"
+        ></app-main-post>
     </div>
-
-    <div class="labels__main-card">
-        <div class="primary__labels__main-card">{{cardAuthor}}</div>
-        <div class="secondary__labels__main-card">
-            <div>{{cardAuthorAge}} years old</div>
-            <div>{{cardAuthorOccupation}}</div>
-        </div>
-    </div>
-</div>

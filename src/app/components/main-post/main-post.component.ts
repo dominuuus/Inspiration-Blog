@@ -1,29 +1,31 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, input, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { posts } from '../../data/posts';
-import { MainPostComponent } from "../main-post/main-post.component";
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+
 
 
 @Component({
-  selector: 'app-main-card',
-  imports: [MainPostComponent, CommonModule],
-  templateUrl: './main-card.component.html',
-  styleUrl: './main-card.component.css',
+  selector: 'app-main-post',
+  imports: [CommonModule, RouterModule],
+  templateUrl: './main-post.component.html',
+  styleUrl: './main-post.component.css'
 })
-export class MainCardComponent implements OnInit {
 
-  hihglightedPosts = posts.filter(post => post.cardTag.includes("Highlighted") === true).slice(0, 3);
-  
+export class MainPostComponent implements OnInit {
+
+ 
   @Input() id:string | null = ""
   @Input() photoCover:string = ""
-  @Input() cardTitle:string = ""
+  @Input() cardTitle:string = "Título"
   @Input() cardTime:string = ""
   @Input() cardTag:string = ""
   @Input() cardAuthor:string = ""
   @Input() cardAuthorAge:number = 0
   @Input() cardAuthorOccupation = ""
   @Input() url:string | null = ""
+  @Input() cardPublishedAt:string = ""
 
   constructor(
     private route:ActivatedRoute
@@ -31,13 +33,13 @@ export class MainCardComponent implements OnInit {
 
   ngOnInit(): void {
       this.route.paramMap.subscribe( value => {
-      this.url = value.get("url");
-      this.setValueToComponent(this.url);
+      this.id = value.get("id");
+      this.setValueToComponent(this.id);
   })
 }
 
-  setValueToComponent(url:string | null) {
-    const result = posts.find(post => post.url === url);
+  setValueToComponent(id:string | null) {
+    const result = posts.find(post => post.id === id);
 
     if(result) {
     this.id = result.id;
@@ -49,6 +51,7 @@ export class MainCardComponent implements OnInit {
     this.cardAuthor = result.cardAuthor;
     this.cardAuthorAge = result.cardAuthorAge;
     this.cardAuthorOccupation = result.cardAuthorOccupation;
+    this.cardPublishedAt = result.cardPublishedAt;
   }
   }
 }

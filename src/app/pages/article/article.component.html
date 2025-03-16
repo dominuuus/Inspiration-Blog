@@ -24,21 +24,16 @@
                 src={{photoCover}} 
                 alt="">
             </div>
-            <p>{{cardContent}}</p>
+            <p [innerHTML]="cardContent"></p>
         </div>
     </div>
 
     <div class="latest__news">
         <div>
-            <h1>FROM THE BLOG</h1>
+            <h1>LATEST PODCAST</h1>
         </div>
         <div>
-            <app-post-card
-            *ngFor="let post of latestPosts"
-            [url]="post.url"
-            [cardTitle]="post.cardTitle"
-            [cardAuthor]="post.cardAuthor"
-            ></app-post-card>
+            <app-latest-articles></app-latest-articles>
         </div>
         
         <div class="link__blog__home">

@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { marked } from 'marked';
 import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from "../../components/menu-title/menu-title.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 import { ActivatedRoute } from '@angular/router';
 import { posts } from '../../data/posts';
-import { PostCardComponent } from "../../components/post-card/post-card.component";
+import { LatestArticles } from '../../components/latest-articles/latest-articles.component';
 
 
 @Component({
   selector: 'app-article',
-  imports: [CommonModule, MenuBarComponent, MenuTitleComponent, FooterComponent, PostCardComponent],
+  imports: [CommonModule, MenuBarComponent, MenuTitleComponent, FooterComponent, LatestArticles],
   templateUrl: './article.component.html',
   styleUrl: './article.component.css'
 })
@@ -41,7 +42,7 @@ export class ArticleComponent implements OnInit {
       
   }
 
-  setValueToComponent(url:string | null) {
+  async setValueToComponent(url:string | null) {
     const result = posts.find(post => post.url === url);
 
     if(result) {
@@ -50,7 +51,7 @@ export class ArticleComponent implements OnInit {
       this.cardAuthor = result.cardAuthor;
       this.cardPublishedAt = result.cardPublishedAt;
       this.cardTag = result.cardTag.join(', ');
-      this.cardContent = result.cardContent;
+      this.cardContent = await marked(result.cardContent);
       this.photoCover = result.photoCover;
     }
   }
