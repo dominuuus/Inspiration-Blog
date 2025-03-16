@@ -3,7 +3,9 @@
         <h1>Inspirational Podcast Blog </h1>
     </div>
 
-    <div class="navigation__menu-bar">
+    <button class="menu-toggle" (click)="toggleMenu()">☰</button>
+
+    <div class="navigation__menu-bar" [class.active]="menuActive">
         <div><a href="#">Home</a></div>
         <div><a href="">Browse</a></div>
         <div><a href="">Offline events</a></div>

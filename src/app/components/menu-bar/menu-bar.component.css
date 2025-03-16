@@ -49,6 +49,14 @@ a:hover {
     height: 150px;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .container__menu-bar {
         grid-template-columns: 1fr;
@@ -57,15 +65,30 @@ a:hover {
 
     .navigation__menu-bar {
         display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation__menu-bar.active {
+        display: flex;
     }
 
     .social__menu-bar {
         display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem__menu-bar {
+        display: flex;
+        align-items: left;
     }
 
     .imagem__menu-bar img {
         height: 100px;
     }
-    
-}
 
+    .menu-toggle {
+        display: block;
+    }
+}

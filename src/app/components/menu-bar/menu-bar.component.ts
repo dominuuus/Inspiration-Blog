@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './menu-bar.component.css',
 })
 export class MenuBarComponent {
+
+  menuActive: boolean = false;
+
+  toggleMenu() {
+    this.menuActive = !this.menuActive;
+  }
 }
