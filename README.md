@@ -58,21 +58,7 @@ O projeto utiliza as seguintes tecnologias:
 - Aplicação dos conceitos aprendidos nas aulas e aproveitamento da experiência prévia com **React**.
 - Instalação da biblioteca marked. O conteúdo dos posts do blog foi salvo em markdown e com a instalação da biblioteca, o arquivo é convertido em HTML para exibição formatada na página do artigo.
 
-## 📊 Status do Projeto
-
-- **Início:** 09/03/2025 às 18:00  
-- **Status atual:** Atualizando  
-- **Andamento do projeto em 09/03/2025 às 22:00:** Estilização em progresso  
-
-## 📅 Próximos Passos
-
-- [ ] Concluir a estilização das páginas e componentes
-- [ok] Criar as rotas da aplicação
-- [ok] Implementar conteúdo dinâmico para os posts exibidos na página inicial
-- [ ] Concluir a aplicação de responsividade para diferentes dispositivos
-- [ ] Corrigir a navegação entre posts na página Article
-
-## Visual em 16/03/2025
+## 📊 Visual do Projeto
 ![alt text](<visual/inspirational_blog 16 03 2025 00 00.png>)
 
 ## ⚙️ Instalação e Execução
